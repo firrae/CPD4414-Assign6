@@ -45,6 +45,10 @@ public class ProductList {
         return result;
     }
     
+    public void add(Product p) {
+        
+    }
+    
     public void remove(Product p) throws Exception {
         remove(p.getProductId());
     }
